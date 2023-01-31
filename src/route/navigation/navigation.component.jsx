@@ -12,7 +12,7 @@ const Navigation = () => {
             <img className="nav-logo" src={logo} alt="globe logo" />
             <p className="nav-text">Countries</p>
           </div>
-          <div className="nav-linkes">
+          <div className="nav-links">
             <ul className="nav-links-container">
               <li>
                 <Link className="nav-link" to="/">
@@ -31,7 +31,7 @@ const Navigation = () => {
               </li>
               <li>
                 <Link className="nav-link" to="/neighbour">
-                  Neighbours
+                  Neighbour
                 </Link>
               </li>
               <li>

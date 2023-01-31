@@ -1,3 +1,12 @@
+:root {
+  --main-color: rgb(15, 119, 96);
+  --secondary-color: rgb(26, 93, 180);
+  --white: #fff;
+  --gray: rgb(116, 116, 116);
+  --medium-gray: #ddd;
+  --light-gray: rgb(241, 241, 241);
+}
+
 * {
   margin: 0;
   padding: 0;

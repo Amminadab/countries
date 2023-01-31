@@ -1,11 +1,3 @@
-:root {
-  --main-color: rgb(57, 68, 175);
-  --secondary-color: rgb(14, 129, 104);
-  --gray: rgb(116, 116, 116);
-  --white: #fff;
-  --light-gray: rgb(241, 241, 241);
-}
-
 .nav {
   display: flex;
   justify-content: space-between;
@@ -26,7 +18,7 @@
 .nav-text {
   font-size: 2.6rem;
   font-weight: 900;
-  color: var(--secondary-color);
+  color: var(--main-color);
 }
 .nav-links {
 }
