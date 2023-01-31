@@ -1,19 +1,24 @@
 import "./country-card-style.css";
 
 const CountryCard = ({ country }) => {
-  const { name, flags, population, timezones } = country;
+  const { name, flags, population, timezones, currencies } = country;
   const { common } = name;
-  const { svg } = flags;
+  const { png } = flags;
   const [time] = timezones;
+
   return (
     <div className="country-card-container">
+      <img className="country-img" src={png} alt={common} />
+      <h4 className="country-name">{common}</h4>
       <ul className="country-card">
+        <li>⏳&nbsp;&nbsp;&nbsp;{time}</li>
+        <li>🚶‍♂️&nbsp;&nbsp;&nbsp;{population}</li>
         <li>
-          <img src={svg} alt={common} />
+          💰&nbsp;&nbsp;&nbsp;
+          {currencies && Object.values(currencies)[0].symbol}
         </li>
-        <li>{common}</li>
-        <li>{time}</li>
-        <li>{population}</li>
+
+        {/* Object.keys(currencies)[0].symbol */}
       </ul>
       <br />
     </div>

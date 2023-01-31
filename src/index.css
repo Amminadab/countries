@@ -3,7 +3,7 @@
   --secondary-color: rgb(26, 93, 180);
   --white: #fff;
   --gray: rgb(116, 116, 116);
-  --height: (100vh -9rem);
+  --dark-gray: rgb(80, 80, 80);
   --medium-gray: #ddd;
   --light-gray: rgb(241, 241, 241);
 }

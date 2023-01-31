@@ -1,7 +1,10 @@
 .countries-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  background-color: red;
-  margin: 4rem;
-  padding: 2rem;
+  /* background-color: var(--light-gray); */
+  margin: 5rem;
+  /* padding: 1rem; */
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 12px;
 }
