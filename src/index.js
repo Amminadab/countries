@@ -4,13 +4,16 @@ import "./index.css";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
+import { CountriesProvider } from "./context/countries.context";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+    <CountriesProvider>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </CountriesProvider>
   </React.StrictMode>
 );
 

@@ -1,0 +1,7 @@
+.countries-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: red;
+  margin: 4rem;
+  padding: 2rem;
+}
