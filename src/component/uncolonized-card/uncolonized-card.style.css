@@ -1,0 +1,38 @@
+.uncolonized-card {
+  /* margin: 3rem; */
+  background-color: var(--white);
+  margin: 2rem;
+  /* border: 1px var(--light-gray) solid; */
+  border-radius: 11px;
+  overflow: hidden;
+  box-shadow: 3px 3px 20px 0.1px var(--medium-gray);
+}
+.uncolonized-img {
+  width: 100%;
+  aspect-ratio: 6/3;
+  border-bottom: 2px var(--light-gray) solid;
+}
+.uncolonized-detail {
+  list-style: none !important;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  line-height: 2.8rem;
+}
+.uncolonized-name {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 4rem;
+  color: var(--dark-gray);
+}
+
+.uncolonized-detail li {
+  font-size: 1.5rem;
+  color: var(--dark-gray);
+}
+.uncolonized-detail li span {
+  font-weight: 700;
+  color: var(--gray);
+}

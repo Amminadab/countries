@@ -1,0 +1,10 @@
+.uncolonized-countries-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* background-color: var(--light-gray); */
+  margin: 5rem;
+  /* padding: 1rem; */
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
