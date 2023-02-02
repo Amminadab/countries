@@ -5,11 +5,7 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <section className="section-hero">
-      <img
-        className="hero-img"
-        src={globe}
-        alt="image of the globe with flags"
-      />
+      <img className="hero-img" src={globe} alt="aglobe with flags" />
       <div className="hero-text">
         <h3 className="hero-text-title">
           Country <span>Flags</span>

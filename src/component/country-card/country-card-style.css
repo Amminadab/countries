@@ -22,7 +22,7 @@
 .country-img {
   width: 100%;
   aspect-ratio: 5/3;
-  /* border-bottom: 2px var(--medium-gray) solid; */
+  border-bottom: 2px var(--medium-gray) solid;
 }
 .country-name {
   margin: 2.4rem 0;
@@ -31,4 +31,59 @@
   font-size: 1.6rem;
   color: var(--dark-gray);
   text-align: center;
+}
+.tag-container p {
+  display: inline-block;
+}
+
+.tag-container {
+  display: flex;
+  /* text-align: center; */
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.tag {
+  padding: 0.6rem 1.2rem;
+  margin-bottom: 3rem;
+  font-size: 1.3rem;
+  border-radius: 100px;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.Dependent {
+  background-color: var(--yellow-red);
+}
+.Independent {
+  background-color: var(--green-blue);
+}
+.Not_UN_Member {
+  background-color: var(--red);
+}
+.UN_Member {
+  background-color: var(--green);
+}
+.neighbour-btn {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* margin: 0 auto; */
+  background-color: var(--white);
+  font-weight: 800;
+  font-size: 1.4rem;
+  color: var(--dark-gray);
+  padding: 1rem 2rem;
+  border: none;
+  margin: 0 3rem;
+  border-radius: 142px;
+  margin-bottom: 2rem;
+  box-shadow: 10px 4px 24px 0.01px rgba(0, 0, 0, 0.301);
+  /* background-color: red; */
+}
+.neighbour-btn:hover {
+  color: var(--white);
+  background-color: var(--secondary-color);
 }

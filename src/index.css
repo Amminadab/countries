@@ -4,8 +4,14 @@
   --white: #fff;
   --gray: rgb(116, 116, 116);
   --dark-gray: rgb(80, 80, 80);
+  --dark-medium-gray: rgb(155, 155, 155);
   --medium-gray: #ddd;
   --light-gray: rgb(241, 241, 241);
+  --red: rgba(192, 0, 0, 0.596);
+  --green: rgba(90, 141, 103, 0.849);
+  --yellow-red: rgba(187, 116, 10, 0.623);
+  --green-blue: rgba(77, 129, 145, 0.575);
+  --light-blue: rgba(35, 131, 196, 0.87);
 }
 
 * {
