@@ -1,0 +1,38 @@
+.continent-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.continent-img {
+  width: 80%;
+  border-top-right-radius: 18px;
+  border-top-left-radius: 18px;
+  overflow: hidden;
+}
+.c-container {
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* background-color: var(--light-gray); */
+  margin: 5rem;
+  width: 80%;
+  /* padding: 1rem; */
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+.container-main {
+  margin-top: 4rem;
+}
+.continent-container-card {
+  background-color: var(--light-gray);
+}
+.continent-img {
+  position: relative;
+}
+.the-name {
+  position: absolute;
+  left: 0;
+  top: 0;
+}

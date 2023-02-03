@@ -10,6 +10,10 @@
   align-items: center;
   display: flex;
   gap: 1rem;
+  text-decoration: none;
+}
+Link {
+  text-decoration: none;
 }
 .nav-logo {
   width: 3.2rem;
@@ -19,8 +23,10 @@
   font-size: 2.6rem;
   font-weight: 900;
   color: var(--main-color);
+  text-decoration: none;
 }
-.nav-links {
+.new-nav span {
+  text-decoration: none;
 }
 .nav-links-container {
   list-style: none;

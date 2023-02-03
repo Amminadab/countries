@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import NotFound from "./layout/not-found/not-found";
+import Continent from "./route/continent/continent.component";
 import Home from "./route/home/home.component";
 import Navigation from "./route/navigation/navigation.component";
 import NeighbourCountry from "./route/neighbour-country/neighbour-country.component";
@@ -14,6 +15,8 @@ function App() {
         <Route path="search" element={<SearchCountry />} />
         <Route path="uncolonized" element={<Uncolonized />} />
         <Route path="neighbour/*" element={<NeighbourCountry />} />
+        <Route path="continent" element={<Continent />} />
+
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>

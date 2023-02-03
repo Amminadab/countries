@@ -10,7 +10,11 @@ const Navigation = () => {
         <div className="nav">
           <div className="logo-block">
             <img className="nav-logo" src={logo} alt="globe logo" />
-            <p className="nav-text">Countries</p>
+            <Link className="new-nav" to="/">
+              <p className="nav-text">
+                <span>Countries</span>
+              </p>
+            </Link>
           </div>
           <div className="nav-links">
             <ul className="nav-links-container">
