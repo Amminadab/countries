@@ -8,3 +8,34 @@
   box-sizing: border-box;
   border-radius: 12px;
 }
+.aligner {
+  display: flex;
+  margin-top: 4rem;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.aligner p {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.filter-list {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+.filter-list button {
+  padding: 0.6rem 1.4rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  border-radius: 100px;
+  border: none;
+  background-color: var(--white);
+  color: var(--dark-gray);
+  box-shadow: 6px 4px 24px 0.01px rgba(0, 0, 0, 0.212);
+}
+.filter-list button:hover {
+  background-color: var(--secondary-color);
+  color: var(--white);
+}
