@@ -26,7 +26,7 @@ const ViewNeighbour = () => {
   const NeighbouringCountryFullDetail = countries.filter((country) =>
     countriesNeighboursList.includes(country.cca3)
   );
-  console.log(NeighbouringCountryFullDetail);
+  // console.log(NeighbouringCountryFullDetail);
 
   return (
     <div className="view-neighbour-contries">

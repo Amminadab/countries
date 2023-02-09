@@ -16,7 +16,7 @@ const ContinentContainer = ({ continent }) => {
   return (
     <div className="continent-container">
       <img className="continent-img" src={img} alt={finalImageName} />
-      <p className="the-name">{continentName}</p>
+      {/* <p className="the-name">{continentName}</p> */}
       <div className="c-container">
         {continent.map((country) => (
           <CountryCard key={country.name.official} country={country} />

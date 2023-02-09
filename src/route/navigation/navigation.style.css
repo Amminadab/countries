@@ -15,6 +15,10 @@
 Link {
   text-decoration: none;
 }
+.logos {
+  display: flex;
+  gap: 1rem;
+}
 .nav-logo {
   width: 3.2rem;
   height: 3.2rem;
