@@ -1,4 +1,5 @@
 import "./country-card-style.css";
+import "./country-card.query.css";
 
 const CountryCard = ({ country }) => {
   const { name, flags, population, timezones, currencies } = country;

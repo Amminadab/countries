@@ -1,0 +1,12 @@
+@media (max-width: 30.06em) {
+  .search-box {
+    max-width: 30rem;
+  }
+}
+@media (max-width: 21.875em) {
+  .search-box {
+    max-width: 24rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}

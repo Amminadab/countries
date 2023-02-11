@@ -1,5 +1,6 @@
 import CountryCard from "../country-card/country-card-component";
 import "./countries-container.style.css";
+import "./countries-container.query.css";
 
 const CountriesContainer = ({ countries }) => {
   return (
@@ -10,4 +11,5 @@ const CountriesContainer = ({ countries }) => {
     </div>
   );
 };
+
 export default CountriesContainer;

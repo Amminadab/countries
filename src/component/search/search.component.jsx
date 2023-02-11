@@ -2,6 +2,7 @@ import { useContext, useEffect, useState } from "react";
 import { CountriesContext } from "../../context/countries.context";
 import CountriesContainer from "../countries-container/countries-container.component";
 import "./search.style.css";
+import "./search.query.css";
 
 const Search = () => {
   const { countries } = useContext(CountriesContext);
