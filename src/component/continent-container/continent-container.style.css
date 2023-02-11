@@ -5,7 +5,7 @@
   justify-content: center;
 }
 .continent-img {
-  width: 80%;
+  width: 90%;
   border-top-right-radius: 18px;
   border-top-left-radius: 18px;
   overflow: hidden;
@@ -16,7 +16,7 @@
   grid-template-columns: repeat(4, 1fr);
   /* background-color: var(--light-gray); */
   margin: 5rem;
-  width: 80%;
+  width: 90%;
   /* padding: 1rem; */
   justify-content: center;
   box-sizing: border-box;

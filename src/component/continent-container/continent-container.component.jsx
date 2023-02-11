@@ -1,5 +1,6 @@
 import CountryCard from "../country-card/country-card-component";
 import "./continent-container.style.css";
+import "./continent-container.query.css";
 
 const ContinentContainer = ({ continent }) => {
   const continentName = continent[0].continents[0];
