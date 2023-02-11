@@ -1,6 +1,7 @@
-import "./hero.style.css";
 import globe from "../../asset/globe.png";
 import { Link } from "react-router-dom";
+import "./hero.style.css";
+import "./hero.query.css";
 
 const Hero = () => {
   return (

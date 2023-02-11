@@ -1,0 +1,25 @@
+@media (max-width: 64em) {
+  .section-hero {
+    margin-top: 4rem;
+  }
+  .hero-img {
+    display: none;
+  }
+}
+@media (max-width: 32.375em) {
+  .section-hero {
+    padding: 2rem 3rem;
+    margin-top: 5rem;
+  }
+  .hero-text-title {
+    font-size: 3.5rem;
+  }
+  .hero-text-description {
+    font-size: 1.8rem;
+  }
+  .hero-text,
+  .hero-text-title,
+  .hero-text-description {
+    margin-bottom: 5rem;
+  }
+}
