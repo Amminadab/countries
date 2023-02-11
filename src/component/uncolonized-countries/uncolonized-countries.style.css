@@ -22,8 +22,9 @@
 
 .filter-list {
   list-style: none;
-  display: flex;
-  gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
 }
 .filter-list button {
   padding: 0.6rem 1.4rem;

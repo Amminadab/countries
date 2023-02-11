@@ -1,6 +1,8 @@
 import { useContext } from "react";
 import { CountriesContext } from "../../context/countries.context";
+
 import "./uncolonized-card.style.css";
+import "./uncolonized-card.query.css";
 
 const UncolonizedCard = ({ country }) => {
   const { UncolonizedMap } = useContext(CountriesContext);
@@ -15,7 +17,7 @@ const UncolonizedCard = ({ country }) => {
       <h2 className="uncolonized-name">{common}</h2>
       <ul className="uncolonized-detail">
         <li>
-          <span>language Spoken &nbsp;</span> : &nbsp;&nbsp;
+          <span>language &nbsp;</span> : &nbsp;&nbsp;
           {Object.values(languages)[0]}
         </li>
         <li>

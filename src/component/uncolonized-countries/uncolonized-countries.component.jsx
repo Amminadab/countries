@@ -3,6 +3,7 @@ import { CountriesContext } from "../../context/countries.context";
 import UncolonizedCard from "../uncolonized-card/uncolonized-card.component";
 
 import "./uncolonized-countries.style.css";
+import "./uncolonized-countries.query.css";
 
 const UncolonizedCounrties = () => {
   const [filteredCountries, setFilteredCountries] = useState([]);
@@ -22,18 +23,23 @@ const UncolonizedCounrties = () => {
   const selectedFilter = (event) => {
     event.preventDefault();
 
-    const finalFilteredCountries = og.filter(
-      (country) =>
-        country.continents[0].toLocaleLowerCase() ===
-        event.target.name.toLocaleLowerCase()
-    );
+    let finalFilteredCountries;
 
+    if (event.target.name === "All") {
+      finalFilteredCountries = og;
+    } else {
+      finalFilteredCountries = og.filter(
+        (country) =>
+          country.continents[0].toLocaleLowerCase() ===
+          event.target.name.toLocaleLowerCase()
+      );
+    }
     setFilteredCountries(finalFilteredCountries);
   };
   return (
     <>
       <div className="aligner">
-        <p>filter by Continent :</p>
+        <p> Filter By Continent</p>
         <ul className="filter-list">
           <button name="Africa" onClick={selectedFilter}>
             Africa
@@ -43,6 +49,9 @@ const UncolonizedCounrties = () => {
           </button>
           <button name="Asia" onClick={selectedFilter}>
             Asia
+          </button>
+          <button name="All" onClick={selectedFilter}>
+            All
           </button>
         </ul>
       </div>
