@@ -2,7 +2,9 @@ import { useContext } from "react";
 import { useParams } from "react-router-dom";
 import { CountriesContext } from "../../context/countries.context";
 import CountriesContainer from "../countries-container/countries-container.component";
+
 import "./view-neighbour.style.css";
+import "./view-neighbour.query.css";
 
 const ViewNeighbour = () => {
   const { ViewNeighbour } = useParams();
@@ -31,7 +33,7 @@ const ViewNeighbour = () => {
   return (
     <div className="view-neighbour-contries">
       <h4 className="view-neighbour-header">
-        Neighbouring Countries Of{" "}
+        Neighbouring Countries Of
         <span>{ViewNeighbour.toLocaleUpperCase()}</span>
       </h4>
 

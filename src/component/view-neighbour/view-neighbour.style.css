@@ -12,6 +12,7 @@
   margin-top: 6rem;
   color: var(--dark-gray);
   margin-bottom: 6rem;
+  line-height: 5rem;
 }
 .view-neighbour-header span {
   padding: 0.4rem 2rem;
@@ -24,6 +25,7 @@
   justify-content: center;
   display: flex;
   align-items: center;
+
   /* 
   margin: 0 auto; */
   border-bottom: solid 2px var(--medium-gray);

@@ -1,0 +1,13 @@
+@media (max-width: 28.125em) {
+  .view-neighbour-header {
+    font-size: 3rem;
+  }
+  .selfNeighbour-img {
+    width: 80%;
+  }
+}
+@media (max-width: 21.875em) {
+  .view-neighbour-header {
+    font-size: 2.8rem;
+  }
+}
