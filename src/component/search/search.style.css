@@ -11,3 +11,11 @@
   border-radius: 5px;
   font-size: 1.4rem;
 }
+.control {
+  background-color: var(--secondary-color);
+  color: var(--white);
+}
+.active {
+  background-color: var(--secondary-color) !important;
+  color: var(--white) !important;
+}
