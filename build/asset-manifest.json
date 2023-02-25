@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7d9f1ff9.css",
+    "main.js": "/static/js/main.442edfd3.js",
+    "static/js/787.862c3719.chunk.js": "/static/js/787.862c3719.chunk.js",
+    "static/media/globe.png": "/static/media/globe.a61d6652fcab5de3c290.png",
+    "static/media/africa.jpg": "/static/media/africa.380c392eec36168e52c6.jpg",
+    "static/media/southamerica.jpg": "/static/media/southamerica.91dba20120682d04871e.jpg",
+    "static/media/asia.jpg": "/static/media/asia.5d440f2ea14e50b7cb6d.jpg",
+    "static/media/europe.jpg": "/static/media/europe.f467e28b2a0fb04f9514.jpg",
+    "static/media/oceania.jpg": "/static/media/oceania.719a5b0a5803fe610d83.jpg",
+    "static/media/northamerica.jpg": "/static/media/northamerica.ac5cacaa0088e894ec10.jpg",
+    "static/media/antarctica.jpg": "/static/media/antarctica.e168be78f3e01c77e9a0.jpg",
+    "static/media/globe-logo.png": "/static/media/globe-logo.d2e09d952f1f543b7bcf.png",
+    "index.html": "/index.html",
+    "main.7d9f1ff9.css.map": "/static/css/main.7d9f1ff9.css.map",
+    "main.442edfd3.js.map": "/static/js/main.442edfd3.js.map",
+    "787.862c3719.chunk.js.map": "/static/js/787.862c3719.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d9f1ff9.css",
+    "static/js/main.442edfd3.js"
+  ]
+}
