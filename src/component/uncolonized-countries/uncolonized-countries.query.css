@@ -7,6 +7,12 @@
   .uncolonized-countries-container {
     grid-template-columns: repeat(1, 1fr);
   }
+  .uncolonized-buttons {
+    display: none;
+  }
+  .drop-down-uncolonized {
+    display: inline;
+  }
 }
 @media (max-width: 37.5em) {
   .filter-list {

@@ -40,3 +40,8 @@
   background-color: var(--secondary-color);
   color: var(--white);
 }
+.drop-down-uncolonized {
+  display: none;
+  margin-left: 1.4rem;
+  padding: 0.7rem 1.4rem;
+}

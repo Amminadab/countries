@@ -13,7 +13,7 @@ const Search = () => {
 
   const [specificCountry, setSpecificCountry] = useState(countries);
 
-  const [selectedContient, setSelectedContient] = useState("All Continent");
+  const [selectedContient, setSelectedContient] = useState("All");
 
   useEffect(() => {
     setSpecificCountry(countries);
@@ -30,9 +30,6 @@ const Search = () => {
   const allContientsNameArray = [...allContientsName];
 
   useEffect(() => {
-    // console.log(specificCountry);
-    // console.log(countries);
-
     const newFilteredList = specificCountry.filter((country) => {
       const name = country.name.common.toLocaleLowerCase();
       return name.includes(searchedText.toLocaleLowerCase());
@@ -46,30 +43,32 @@ const Search = () => {
 
   const continentFilter = (e) => {
     e.preventDefault();
+    if (!e.target.name) {
+      const buttonToChange = document.getElementById(`${e.target.value}`);
+      allContientsNameArray.map((contient) =>
+        document.getElementById(`${contient}`).classList.remove("active")
+      );
 
-    const buttonToChange = document.getElementById(`${e.target.name}`);
-    allContientsNameArray.map((contient) =>
-      document.getElementById(`${contient}`).classList.remove("active")
-    );
-    document.getElementById("All").classList.remove("active");
-    buttonToChange.classList.add("active");
-    if (e.target.name === "All") {
+      document.getElementById("All").classList.remove("active");
+      buttonToChange.classList.add("active");
+      console.log(e.target.name);
+    }
+
+    if (e.target.value === "All") {
       setFilteredCountries(countryReference);
       setSpecificCountry(countryReference);
-      setSelectedContient("All Continent");
+      setSelectedContient("All");
     } else {
       const byContientFilteredCountry = countryReference.filter((country) => {
-        // console.log(country.continents[0].toLocaleLowerCase());
-        // console.log(e.target.name.toLocaleLowerCase());
         return (
-          e.target.name.toLocaleLowerCase() ===
+          e.target.value.toLocaleLowerCase() ===
           country.continents[0].toLocaleLowerCase()
         );
       });
       setSpecificCountry([...byContientFilteredCountry]);
 
       setFilteredCountries(byContientFilteredCountry);
-      setSelectedContient(e.target.name);
+      setSelectedContient(e.target.value);
     }
   };
 
@@ -82,7 +81,7 @@ const Search = () => {
             allContientsNameArray.map((contient) => (
               <button
                 key={contient}
-                name={contient}
+                value={contient}
                 id={contient}
                 className="country-filter-btn"
                 onClick={continentFilter}
@@ -90,10 +89,33 @@ const Search = () => {
                 {contient}
               </button>
             ))}
-          <button name="All" id="All" onClick={continentFilter}>
+          <button
+            id="All"
+            value="All"
+            className="country-filter-btn"
+            onClick={continentFilter}
+          >
             All
           </button>
         </ul>
+        <select
+          className="drop-down-contient"
+          name="dropdown"
+          onChange={continentFilter}
+        >
+          <option value="All">All</option>
+          {allContientsNameArray[0] &&
+            allContientsNameArray.map((contient) => (
+              <option
+                key={contient}
+                value={contient}
+                id={contient}
+                name={contient}
+              >
+                {contient}
+              </option>
+            ))}
+        </select>
       </div>
 
       <section className="section-search">

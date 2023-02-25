@@ -1,5 +1,14 @@
+@media (max-width: 43em) {
+  .country-filter-btn {
+    display: none;
+  }
+  .drop-down-contient {
+    display: inline;
+  }
+}
 @media (max-width: 30.06em) {
   .search-box {
+    margin-top: 3rem;
     max-width: 30rem;
   }
 }
