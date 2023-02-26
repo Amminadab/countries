@@ -74,7 +74,7 @@ const Search = () => {
 
   return (
     <>
-      <div className="aligner">
+      <div className="aligner-r">
         <p> Filter Continent</p>
         <ul className="filter-list">
           {allContientsNameArray[0] &&

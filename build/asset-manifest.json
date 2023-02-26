@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7d9f1ff9.css",
-    "main.js": "/static/js/main.442edfd3.js",
+    "main.css": "/static/css/main.454a2317.css",
+    "main.js": "/static/js/main.9a915780.js",
     "static/js/787.862c3719.chunk.js": "/static/js/787.862c3719.chunk.js",
     "static/media/globe.png": "/static/media/globe.a61d6652fcab5de3c290.png",
     "static/media/africa.jpg": "/static/media/africa.380c392eec36168e52c6.jpg",
@@ -13,12 +13,12 @@
     "static/media/antarctica.jpg": "/static/media/antarctica.e168be78f3e01c77e9a0.jpg",
     "static/media/globe-logo.png": "/static/media/globe-logo.d2e09d952f1f543b7bcf.png",
     "index.html": "/index.html",
-    "main.7d9f1ff9.css.map": "/static/css/main.7d9f1ff9.css.map",
-    "main.442edfd3.js.map": "/static/js/main.442edfd3.js.map",
+    "main.454a2317.css.map": "/static/css/main.454a2317.css.map",
+    "main.9a915780.js.map": "/static/js/main.9a915780.js.map",
     "787.862c3719.chunk.js.map": "/static/js/787.862c3719.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d9f1ff9.css",
-    "static/js/main.442edfd3.js"
+    "static/css/main.454a2317.css",
+    "static/js/main.9a915780.js"
   ]
 }

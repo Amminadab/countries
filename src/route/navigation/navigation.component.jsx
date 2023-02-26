@@ -49,9 +49,7 @@ const Navigation = () => {
               alt="globe logo"
             />
             <Link className="new-nav" to="/">
-              <p className="nav-text">
-                <span>Countries</span>
-              </p>
+              <p className="nav-text">Countries</p>
             </Link>
           </>
           <nav

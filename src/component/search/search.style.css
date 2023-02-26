@@ -24,3 +24,15 @@
   margin-left: 1.4rem;
   padding: 0.7rem 1.4rem;
 }
+.aligner-r {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  justify-content: center;
+  gap: 7rem;
+  color: var(--dark-gray);
+}
+.aligner-r p {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
